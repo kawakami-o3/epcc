@@ -40,7 +40,7 @@ defmodule EpccWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_epcc_key",
-    signing_salt: "+kWpsHjD"
+    signing_salt: "ZJp6r8Rv"
 
   plug EpccWeb.Router
 end

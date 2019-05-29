@@ -13,7 +13,7 @@ config :epcc,
 # Configures the endpoint
 config :epcc, EpccWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "f8fdwGbTrZ72Lh701ieA3dwkODDva/3FPab0x39ymr3gVoS5CC4tYM/P5N8yGH3c",
+  secret_key_base: "f+omJMD19iXVHFPxdywQ2wgwOZwPJfcQ/QtzZklP3wS2HoZ2eWVNKdVYbfA9yQYH",
   render_errors: [view: EpccWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Epcc.PubSub, adapter: Phoenix.PubSub.PG2]
 

@@ -1,9 +1,10 @@
 use Mix.Config
 
 # Configure your database
+# GRANT ALL PRIVILEGES ON `epcc_dev`.* TO 'epcc_user'@'localhost'  IDENTIFIED BY 'tawSzr7b';
 config :epcc, Epcc.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "epcc_user",
+  password: "tawSzr7b",
   database: "epcc_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,

@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :epcc, Epcc.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "root",
+  password: "",
   database: "epcc_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
