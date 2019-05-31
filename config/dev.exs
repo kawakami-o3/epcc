@@ -5,6 +5,8 @@ use Mix.Config
 config :epcc, Epcc.Repo,
   username: "epcc_user",
   password: "tawSzr7b",
+  #username: "root",
+  #password: "WK6Pp2socc0Eu9rV",
   database: "epcc_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
